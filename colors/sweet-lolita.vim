@@ -8,6 +8,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
+
 set background=light
 let g:colors_name="sweet-lolita"
 
@@ -31,15 +32,30 @@ hi Type ctermfg=198 ctermbg=218 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
 
 hi Special ctermfg=125 ctermbg=218 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
 
+hi Underlined ctermfg=125 ctermbg=218 cterm=underline guifg=#ffffff  guibg=#ff00d7 gui=none
+
+hi ColorColumn ctermbg=230 
+
+hi ErrorMsg ctermfg=231 ctermbg=205 cterm=bold guifg=#ffffff  guibg=#ff00d7 gui=none
+hi WarningMsg ctermfg=231 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
+
 hi LineNr ctermfg=218 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
 hi CursorLineNr ctermfg=231 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
+
+hi MatchParen ctermfg=231 ctermbg=205 cterm=bold guifg=#ffffff  guibg=#ff00d7 gui=none
+
+hi Search ctermbg=230 guibg=#ff00d7
 
 hi VertSplit ctermfg=205 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
 hi StatusLine ctermfg=231 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
 hi StatusLineNC ctermfg=218 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
 hi ModeMsg ctermfg=231 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
+hi MoreMsg ctermfg=231 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
 
 hi TabLine ctermfg=218 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
 hi TabLineFill ctermfg=218 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
 hi TabLineSel ctermfg=231 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
 
+hi Visual ctermfg=231 ctermbg=205 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
+
+hi Wildmenu ctermfg=205 ctermbg=230 cterm=none guifg=#ffffff  guibg=#ff00d7 gui=none
